@@ -1,1 +1,10 @@
+class Calculator:
+    def __init__(self, val, count):
+        self.count = count
+        self.val = val
 
+    def power(self):
+        return pow(self.val, self.count)
+
+    def root(self):
+        return pow(self.val, 1/self.count)
